@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins" , sans-serif;
+    box-sizing: border-box;
+    transition: all.2s linear;
+    text-decoration: none;
+    border: none;
+}
+body {
+    position: relative;
+    background-color: #dadada;
+}
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background-color: rgb(207, 162, 162);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    height: 50px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+header .logo {
+    color: #636161;
+    font-size: 25px;
+    font-weight: bold;
+}
+header .logo span {
+    color: antiquewhite;
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    list-style: none;
+    margin: 0 15px;
+}
+.menu li a {
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    transition: 0.2s;
+}
+.menu li a:hover {
+    color:#3a3536;
+}
+.bouton {
+    background-color:rgb(209, 204, 198);
+    cursor: pointer;
+    color:  black;
+    padding: 5px 25px;
+}
+#collection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color:  rgb(196, 99, 112);
+}
+
+.images {
+    margin: 25px ;
+    
+}
+.images ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.images li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.665%;
+    width: 28%;
+}
+
+.images li div {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 5px;
+}
+.images li div img {
+    height: 100%;
+    width: 100%;
+}
+
+.images li:hover {
+    margin: 20px;
+}
+.images li span {
+    color: #000;
+    font-size: 18px;
+}
+#collection li span.prix {
+   color: rgb(196, 99, 112);
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+#collection li a {
+    background-color: #535252;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 15px;
+}
+footer {
+    background-color: rosybrown;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 14px;
+}
